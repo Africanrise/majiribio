@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <textarea name="name" rows="3" cols="40" id="message"></textarea> <br>
+
+    <a href="" onclick="sendWa()"> Submit</a>
+
+    <script>
+      function sendWa(){
+        var message = documentgetElementById("message").value
+        location.href ="https://wa.me/255624274879?text" + message
+      }
+    </script>
+  </body>
+</html>
